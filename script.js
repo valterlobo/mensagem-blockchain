@@ -53,7 +53,7 @@ function ShowMessages(arrayListMessage) {
         <figcaption class="blockquote-footer mb-0 text-muted">
         <cite title="Source Title">${element.nome}</cite> ${element.data}
         </figcaption>
-        <p>[${element.wallet}] </p>
+        <p><a href="https://goerli.etherscan.io/address/${element.wallet}" target="_blank" > [${element.wallet}] </a> </p>
       </figure>
     </div>
   </div>`
